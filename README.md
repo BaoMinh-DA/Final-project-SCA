@@ -1,5 +1,10 @@
 # Final-project-SCA
-India Rental House Predict
+ 
+  
+  # **India Rental House Predict**
+![image](https://github.com/user-attachments/assets/832121de-8315-4e4d-a1f0-30a8974e21bb)
+
+
 # Indian Rental House Price Prediction
 
 ## Overview
@@ -35,7 +40,10 @@ The data was collected from various sources, including public housing datasets a
 
 ### Visualizations
 - Created histograms to visualize the distribution of rental prices.
+  ![image](https://github.com/user-attachments/assets/3e7269fa-89c3-465f-8a1f-3378119febb9)
+
 - Plotted correlation heatmaps to identify relationships between features.
+![image](https://github.com/user-attachments/assets/22f836bf-d65d-4689-aaac-fb312b5c6260)
 
 ## Feature Engineering
 - Created new features such as `distance_to_center` to add more predictive power to the models.
@@ -58,8 +66,10 @@ The data was collected from various sources, including public housing datasets a
 - Identified the best-performing model based on R-squared and MSE.
 
 ## Results
-- The XGBoost model had the highest R-squared value and the lowest MSE, making it the most accurate model for predicting rental prices.
+- The Random Forest model had the highest R-squared value and the lowest MSE, and high oob-score  making it the most accurate model for predicting rental prices.
 - Feature importance analysis revealed key factors influencing rental prices, such as house size, number of bathrooms, and location.
+
+![image](https://github.com/user-attachments/assets/0bc014ad-8768-4e72-b1ec-dd843744ae27)
 
 ## Conclusion
 - Developed models to predict rental house prices in India accurately.
@@ -74,6 +84,4 @@ The data was collected from various sources, including public housing datasets a
 ## Acknowledgments
 - Thanks to mentors, contributors, and supporting organizations for their guidance and support.
 
-## Contact
-For any inquiries, please contact [your email address].
 
