@@ -1,7 +1,5 @@
-# Final-project-SCA
+# Final-project-India Rental House Predict
  
-  
-  # **India Rental House Predict**
 ![image](https://github.com/user-attachments/assets/832121de-8315-4e4d-a1f0-30a8974e21bb)
 
 
@@ -22,7 +20,7 @@ This project aims to predict rental house prices in India using various machine 
 9. [Future Work](#future-work)
 10. [Acknowledgments](#acknowledgments)
 
-## Introduction
+##  Introduction
 Predicting rental house prices in India using machine learning models. The project involves data cleaning, feature engineering, model building, and evaluation to identify the best-performing model for accurate predictions.
 
 ## Data Collection and Preparation
