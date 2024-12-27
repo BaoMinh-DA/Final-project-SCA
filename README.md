@@ -42,9 +42,13 @@ The data was collected from various sources, including public housing datasets a
 
 - Created more chart to compare price to another attribute.
   ![image](https://github.com/user-attachments/assets/3549d300-a6a0-4102-9cf3-081ea75f73a5)
+  
   ![image](https://github.com/user-attachments/assets/2d506310-4dbc-4bf7-b3bd-528a7005fcde)
+  
 ![image](https://github.com/user-attachments/assets/d2275752-946d-445d-b9c8-9042c51f645e)
+
 ![image](https://github.com/user-attachments/assets/bdf5ece3-39ce-488d-b57b-bc4742b3cca3)
+
 ![image](https://github.com/user-attachments/assets/4da4ee82-6825-4236-922e-7a94c049b4b6)
 
 
