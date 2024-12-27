@@ -58,6 +58,20 @@ The data was collected from various sources, including public housing datasets a
 
 ## Feature Engineering
 - Created new features such as `distance_to_center` to add more predictive power to the models.
+  from geopy.distance import geodesic
+
+  centrer_delhi = ['28.6815','77.2228']
+
+  def calculate_distance(row, centrer_delhi):
+
+       point = (row['latitude'], row['longitude'])
+
+       return geodesic(point, centrer_delhi).kilometers
+
+   df['distance_to_center'] = df.apply(calculate_distance, axis=1, centrer_delhi=centrer_delhi)
+
+   df['distance_to_center'] = df['distance_to_center'].astype('int')
+- 
 - Encoded categorical features using one-hot encoding.
 
 ## Model Building
@@ -75,6 +89,8 @@ The data was collected from various sources, including public housing datasets a
 ### Comparison
 - Evaluated model performance using the metrics mentioned above.
 - Identified the best-performing model based on R-squared and MSE.
+  
+![image](https://github.com/user-attachments/assets/022ca24f-c38a-4aa4-acd3-a9b185a0b8ad)
 
 ## Results
 - The Random Forest model had the highest R-squared value and the lowest MSE, and high oob-score  making it the most accurate model for predicting rental prices.
@@ -85,14 +101,12 @@ The data was collected from various sources, including public housing datasets a
 ## Conclusion
 - Developed models to predict rental house prices in India accurately.
 - Identified key factors influencing rental prices.
-- The XGBoost model was found to be the best-performing model.
+- The Random Forest model was found to be the best-performing model.
 
 ## Future Work
 - Further refine the models by tuning hyperparameters.
 - Explore additional data sources for more comprehensive predictions.
 - Implement more advanced feature engineering techniques.
 
-## Acknowledgments
-- Thanks to mentors, contributors, and supporting organizations for their guidance and support.
 
 
